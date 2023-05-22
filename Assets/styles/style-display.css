@@ -1,0 +1,54 @@
+/* Estilo del abuelo*/
+body{
+    text-align: center;
+
+}
+
+
+/*Estilo del padre*/
+.container{
+    margin: 50px;
+    padding: 25px;
+    border: 1px solid black;
+}
+
+/*Estilo de los hijos*/
+
+
+/* La propiead displayn se utiliza para controlar el tipo de caja que se usa para un elemento HTML, controlo tambien el como se muestra en la pagina
+Esta propiedad es distinta de position porque se encarga de definir como se muestran u ocultan (NO SE ELIMINAN DEL CODIGO) los elementos en el navegador.
+
+*/
+
+.display{
+    border: 1px solid red;
+}
+
+span{
+    color: red;
+    border: 2px solid black;
+}
+
+/* Estilo del display */
+
+#display-none{
+    display: none;
+}
+
+#display-inline{
+    display: inline;
+}
+
+li{
+    display: inline;
+}
+
+#display-block{
+    display: block;
+}
+
+#display-inline-block{
+    display: inline-block;
+}
+
+
